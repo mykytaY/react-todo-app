@@ -1,0 +1,44 @@
+body {
+    background: rgba(198, 255, 65, 0.466);
+  }
+  
+  .container {
+    background: rgba(41, 33, 33, 0.76);
+    width: 50vw;
+    margin: 10% auto;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: white;
+    border: 3px solid rgb(24, 146, 95);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  
+  .task {
+    border: 1px solid white;
+    padding: 0.7em;
+    margin: 0.5em;
+    border-radius: 5px;
+  }
+  
+  .task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 3px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+  
+  .header {
+    margin: 0.5em;
+    font-size: 25pt;
+    text-align: center;
+  }
+  
+  .new-task input {
+    margin: 2em 2em 2em 5em;
+    width: 80%;
+    padding: 1em;
+  }
